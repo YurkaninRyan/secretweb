@@ -1,0 +1,21 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <!--TODO: Implement opengraph tags, and twitter tags-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/react/0.12.2/JSXTransformer.js"></script>
+    </head>
+    <body>
+        <div id="container"></div>
+        <script type="text/jsx">
+            /** @jsx React.DOM */
+            React.renderComponent(
+                <h1>Hello World!</h1>,
+                document.getElementById('container')
+            );
+        </script>
+    </body>
+</html>
